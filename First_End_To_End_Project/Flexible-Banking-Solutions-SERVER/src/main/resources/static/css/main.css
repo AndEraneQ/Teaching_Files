@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family: Gill Sans;
+}
+
+/* Main Body Styling */
+
+body{
+    background-color: rgb(201, 207, 204);
+}
+.container{
+    margin: 10px auto;
+}
+/* Main Page Header */
+
+.main-page-header{
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+/* Company Name */
+
+.main-page-header .company-name{
+    font-weight: 600;
+    color: white;
+}
+
+/* <!-- Navigation --> */
+.navigation{
+    margin-left: 20px;
+}
+.navigation li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 15px;
+}
+
+.navigation li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Display Name */
+
+.display-name {
+    font-weight: 600;
+}
+
+/* Transact Button */
+.transact-btn{
+    background-color: #FFB114;
+    border: 1px solid #8a867d;
+    color: white;
+}
+#add-account-btn{
+    background-color: #FF4E00;
+    border: 1px solid #8a867d;
+    color: white;
+}
+
+/* Offcanvas  Background*/
+
+.offcanvas{
+    background-image: url("../images/offcanvas_bg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#transact-btn{
+    background-color: #FF4E00;
+    border: 1px solid #8a867d;
+    color: white;
+}
+
+/* Payment Card */
+.payment-card{
+    display: none;
+}
+
+/* Transfer Card */
+.transfer-card{
+    display: none;
+}
+
+/*  Deposid Card */
+.deposit-card{
+    display: none;
+}
+
+/*  WithDraw Card */
+.withdraw-card{
+    display: none;
+}
