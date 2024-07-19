@@ -1,0 +1,258 @@
+/* body{
+  /* background-color: rgb(46, 46, 46); */
+  /* background-image: url(C:\Users\troja\Desktop\PROJEKTY\react_course\src\assets\wallper.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.card{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(48, 48, 48, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.card .card-title{
+  font-family: Arial, sams-serif;
+  margin: 0;
+  color: rgb(61, 61, 61);
+}
+.card .card-text{
+  font-family: Arial, sams-serif;
+  margin: 0;
+  color: rgb(137, 137, 137);
+}
+
+/* .button{
+  background-color: hsl(200,100%,50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+} 
+
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid rgb(49, 49, 49, 0.8);
+}
+
+.student p{
+  margin: 0;
+}
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: aquamarine;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: aquamarine;
+  color: red;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.list-category{
+  font-size: 2,5em;
+  font-weight: bold;
+  color: blueviolet;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: rgb(62, 2, 2);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.count-display{
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: pink;
+}
+
+.counter-button{
+  width: 150px;
+  height: 15px;
+  font-size: 1,5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: rgb(21, 36, 179);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover{
+  background-color:rgb(253, 102, 185);
+}
+
+body{
+  font-family: Arial,sans-serif;
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  margin: 50px;
+  font-size: 3rem;
+  color: white;
+}
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0,0%,80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25 ease;
+}
+.color-display p{
+  color: hsl(0,0%,20%);
+  font-size: 2rem;
+  text-align: center;
+}
+label{
+  font-size: 1,5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0,0%,80%);
+}
+
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+}
+button{
+  font-size: 1,7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.add-button{
+  background-color: rgb(6, 228, 6);
+}
+.add-button:hover{
+  background-color: rgb(5, 153, 5);
+}
+.delete-button{
+  background-color: rgb(243, 24, 9);
+}
+.delete-button:hover{
+  background-color: rgb(148, 14, 4);
+}
+.move-button{
+  background-color: rgb(0, 119, 255);
+}
+.move-button:hover{
+  background-color: rgb(1, 49, 138);
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: rgb(53, 52, 52);
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(177, 175, 175);
+  margin-bottom: 10px;
+  border: 3px solid rgb(185, 184, 184);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+
+}
+
+.clock-container{
+  backdrop-filter: blur(3px);
+  padding: 10px 0;
+}
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgb(43, 42, 42);
+} */
+
+.box{
+  border: 3px solid;
+  padding: 25px;
+}
